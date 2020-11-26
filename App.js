@@ -99,7 +99,7 @@ export class App extends Component {
                 <TouchableOpacity style={styles.touchable} onPress={() =>this._clear()}><Text style={styles.text}>C</Text></TouchableOpacity>
               </View>
               <View style={styles.btns}>
-                <TouchableOpacity style={styles.touchable} onPress={() =>this._delete()}><Text style={styles.text}>+_</Text></TouchableOpacity>
+                <TouchableOpacity style={styles.touchable} onPress={() =>this._delete()}><Text style={styles.text}>DEL</Text></TouchableOpacity>
               </View>
               <View style={styles.btns}>
                 <TouchableOpacity style={styles.touchable} onPress={() =>this._operation("%")}><Text style={styles.text}>%</Text></TouchableOpacity>
